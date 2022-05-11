@@ -14,7 +14,7 @@ test("The output variable needs to be set to <span> James is <strong>12</strong>
   console.log(tree);
   expect(tree).toMatchInlineSnapshot(`
 <span>
-  James is 
+  James is
   <strong>
     12
   </strong>
