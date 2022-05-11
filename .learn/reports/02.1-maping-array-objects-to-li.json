@@ -1,13 +1,29 @@
 {
   "success": false,
-  "numFailedTestSuites": 1,
+  "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTests": 0,
+  "numPassedTests": 4,
   "testResults": [
     {
-      "message": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    ReferenceError: label is not defined\n\n    \u001b[0m \u001b[90m  8 |\u001b[39m \u001b[90m **/\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m  9 |\u001b[39m \u001b[36mconst\u001b[39m animalsInHTML \u001b[33m=\u001b[39m animals\u001b[33m.\u001b[39mmap((singleAnimal\u001b[33m,\u001b[39m i) \u001b[33m=>\u001b[39m {\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m \t\u001b[36mreturn\u001b[39m \u001b[33m<\u001b[39m\u001b[33mli\u001b[39m key\u001b[33m=\u001b[39m{label}\u001b[33m>\u001b[39m{singleAnimal}{animals\u001b[33m.\u001b[39mlabels}\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mli\u001b[39m\u001b[33m>\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m    |\u001b[39m \t                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 11 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 12 |\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 13 |\u001b[39m \u001b[33mReactDOM\u001b[39m\u001b[33m.\u001b[39mrender(\u001b[33m<\u001b[39m\u001b[33mul\u001b[39m\u001b[33m>\u001b[39m{animalsInHTML}\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mul\u001b[39m\u001b[33m>\u001b[39m\u001b[33m,\u001b[39m document\u001b[33m.\u001b[39mquerySelector(\u001b[32m\"#myDiv\"\u001b[39m))\u001b[33m;\u001b[39m\u001b[0m\n\n      \u001b[2mat map (\u001b[22mexercises/02.1-maping-array-objects-to-li/app.jsx\u001b[2m:10:18)\u001b[22m\n          at Array.map (<anonymous>)\n      \u001b[2mat Object.<anonymous> (\u001b[22mexercises/02.1-maping-array-objects-to-li/app.jsx\u001b[2m:9:31)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[0m\u001b[36mexercises/02.1-maping-array-objects-to-li/tests.js\u001b[39m\u001b[0m\u001b[2m:2:1)\u001b[22m\n",
-      "errorType": {}
+      "message": null
     }
   ],
-  "failed": []
+  "failed": [
+    {
+      "title": "ReactDOM.render needs to be called once",
+      "status": "passed"
+    },
+    {
+      "title": "The component should return the exact HTML",
+      "status": "passed"
+    },
+    {
+      "title": "You should use singleAnimal to get the anima for each of the iterations",
+      "status": "passed"
+    },
+    {
+      "title": "You should add the key for each of them and it should be unique",
+      "status": "passed"
+    }
+  ]
 }

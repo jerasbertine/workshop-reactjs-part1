@@ -1,0 +1,25 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTests": 2,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mYou should use the map() method\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\n    Expected substring: \u001b[32m\".map(\"\u001b[39m\n    Received string:    \u001b[31m\"import React from \\\"react\\\"; //Main React.js library\u001b[39m\n    \u001b[31mimport ReactDOM from \\\"react-dom\\\"; //we use ReactDOM to render into the DOM·\u001b[39m\n    \u001b[31mconst planets = [\\\"Mars\\\", \\\"Venus\\\", \\\"Jupiter\\\", \\\"Earth\\\", \\\"Saturn\\\", \\\"Neptune\\\"];·\u001b[39m\n    \u001b[31m/**\u001b[39m\n    \u001b[31m * 1) Create the mapping function and use it to generate a new array of\u001b[39m\n    \u001b[31m * planets in html called planetsInHTML\u001b[39m\n    \u001b[31m */···\u001b[39m\n    \u001b[31m// 2) add the array planetsInHTML inside the innerHTML of this ul\u001b[39m\n    \u001b[31mconst content =·\u001b[39m\n    \u001b[31m<ul className=\\\"list-group m-5\\\">\u001b[39m\n    \u001b[31m  <li className=\\\"list-group-item\\\">Mars</li>\u001b[39m\n    \u001b[31m  <li className=\\\"list-group-item\\\">Venus</li>\u001b[39m\n    \u001b[31m  <li className=\\\"list-group-item\\\">Jupiter</li>\u001b[39m\n    \u001b[31m  <li className=\\\"list-group-item\\\">Earth</li>\u001b[39m\n    \u001b[31m  <li className=\\\"list-group-item\\\">Saturn</li>\u001b[39m\n    \u001b[31m  <li className=\\\"list-group-item\\\">Neptune</li>\u001b[39m\n    \u001b[31m</ul>;·\u001b[39m\n    \u001b[31mReactDOM.render(content, document.querySelector(\\\"#myDiv\\\"));\u001b[39m\n    \u001b[31m\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 56 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 57 |\u001b[39m test(\u001b[32m\"You should use the map() method\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 58 |\u001b[39m     expect(app_content)\u001b[33m.\u001b[39mtoMatch(\u001b[32m\".map(\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 59 |\u001b[39m })\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/02.2-maping-array-of-objects-to-li/tests.js\u001b[39m\u001b[0m\u001b[2m:58:25)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "ReactDOM.render needs to be called once",
+      "status": "passed"
+    },
+    {
+      "title": "The component should return the exact HTML",
+      "status": "passed"
+    },
+    {
+      "title": "You should use the map() method",
+      "status": "failed"
+    }
+  ]
+}
